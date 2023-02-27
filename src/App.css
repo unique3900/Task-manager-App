@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.MainContainer{
+  height: 100vh;
+  width: 100%;
+  background:-moz-linear-gradient(306deg, rgba(0, 0, 0, 1) 0%, rgba(70, 8, 70, 1) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(306deg, rgba(0, 0, 0, 1) 0%, rgba(70, 8, 70, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(306deg, rgba(0, 0, 0, 1) 0%, rgba(70, 8, 70, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#460846', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(306deg, rgba(0, 0, 0, 1) 0%, rgba(70, 8, 70, 1) 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(306deg, rgba(0, 0, 0, 1) 0%, rgba(70, 8, 70, 1) 100%);
+}
+.MainContainer>h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+.Container{
+  width: 600px;
+  margin: auto;
+  border: 2px solid white;
+  box-shadow: white 0px 0px 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.InputField{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 5px;
+  padding: 1rem;
+  justify-content: center;
+}
+.InputField input{
+padding: 4px 5px;
+}
+.InputField button{
+  padding: 5px 5px;
+  background: blue;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.DisplayField{
+  padding: 20px;
+}
+.ItemBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(110, 116, 116);
+  padding: 3px 10px;
+}
+.DisplayField h3{
+  color: white;
+  font-size: 25px;
+
+}
+.ItemBox>button{
+  padding: 5px 5px;
+  background: rgb(205, 30, 30);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
